@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="Proyecto.css">
+    <link rel=icon href="../Imagenes/jcb.jpg">
+</head>
+<body class="for">
+<header class="titulo">
+    <div class="imagenes">
+        <img src="../Imagenes/jcb.jpg" alt="Imagen 1">
+        <h1>CONTACTANOS</h1>
+        <img src="../Imagenes/corvus.jpg" alt="Imagen 3">
+      </div>
+</header>
+    <main class="main-formulario">
+    <nav class="menu">
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="Catalogo.html">CATÁLOGO</a></li>
+            <li><a href="https://www.instagram.com/talleres_vemo">MÁS SOBRE NOSOTROS</a></li>
+            <li><a href="Contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <div class="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form action="mailto:jorgecarramolino12@gmail.com" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+<br><br>
+            <label for="ape">Apellidos:</label>
+            <input type="text" id="ape" name="ape" required>
+<br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+<br><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer>
+        <p>Derechos de autor © 2024 Nombre de la Empresa. Todos los derechos reservados.</p>
+    </footer>
+</main>
+</body>
+</html>
